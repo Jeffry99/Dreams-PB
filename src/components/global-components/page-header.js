@@ -11,7 +11,7 @@ class Page_header extends Component {
 
         return (
 
-			<div className="breadcrumb-area" style={{backgroundImage: 'url("'+publicUrl+'assets/img/breadcrumb/1.png")'}}>
+			<div className="breadcrumb-area" style={{backgroundImage: 'url("'+publicUrl+'assets/img/breadcrumb/2.png")'}}>
 				  <div className="container">
 				    <div className="row">
 				      <div className="col-lg-12">
@@ -19,7 +19,7 @@ class Page_header extends Component {
 				          <div className="section-title text-center">
 				            <h2 className="page-title">{ HeaderTitle }</h2>
 				            <ul className="page-list">
-				              <li><Link to="/">Home</Link></li>
+				              <li><Link to="/">Inicio</Link></li>
 				              <li>{ Subheader }</li>
 				            </ul>
 				          </div>

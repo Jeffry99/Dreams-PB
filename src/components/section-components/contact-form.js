@@ -1,5 +1,6 @@
 import React, { Component, useState } from 'react';
-
+import Lottie from 'lottie-react';
+import successAnimation from '../success.json';
 const ContactForm = () => {
 
 	const publicUrl = process.env.PUBLIC_URL+'/'
@@ -88,6 +89,7 @@ const ContactForm = () => {
 							</div>
 						</div>
 					</form>
+					{/* <Lottie animationData={successAnimation}/> */}
 				</div>
 				</div>
 			</div>

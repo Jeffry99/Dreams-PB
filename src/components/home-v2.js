@@ -11,8 +11,10 @@ import Footer from './global-components/footer';
 
 const Home_V1 = () => {
     return <div>
-        <Navbar />
-        <Banner />
+        <div>
+            <Navbar />
+            <Banner />
+        </div>
         {/* <ProductV1 />
         <Featured />
         <NewProduct />
