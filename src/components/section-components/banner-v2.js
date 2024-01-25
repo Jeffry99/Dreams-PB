@@ -23,7 +23,7 @@ class BannerV2 extends Component {
 							</div>
 							<div className="col-lg-4 align-self-center">
 								<div className="thumb">
-								<img src={publicUrl+"assets/img/360.gif"} alt="img" />
+								{/* <img src={publicUrl+"assets/img/360.gif"} alt="img" /> */}
 								</div>
 							</div>
 							</div>

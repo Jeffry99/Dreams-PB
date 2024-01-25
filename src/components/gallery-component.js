@@ -3,7 +3,7 @@ import 'react-image-gallery/styles/css/image-gallery.css'
 
 var images = [];
 const links = [
-    'https://i.imgur.com/NUvfNpB.jpg',
+    'https://i.imgur.com/ixJwyNP.jpg',
     'https://i.imgur.com/KDp8ugl.jpg',
     'https://i.imgur.com/k6woCZt.jpg',
     'https://i.imgur.com/ZbL64jm.jpg',

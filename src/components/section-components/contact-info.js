@@ -33,11 +33,8 @@ class ContactInfo extends Component {
 							</div>
 						</a>
 			          <h4>Whatsapp</h4>
-					  <a href="https://w.app/DreamsPhotobooth" target="_blank" rel="noopener noreferrer">
-						<p className='social-user'>1: +506 8632 3514</p>
-					  </a>
-					  <a href="https://w.app/DreamsPhotobooth2" target="_blank" rel="noopener noreferrer">
-					  	<p className='social-user'>2: +506 8632 2281</p>
+					  <a href="https://wa.me/50686322281?text=¡Hola!%20Quisiera%20más%20información" target="_blank" rel="noopener noreferrer">
+					  	<p className='social-user'>+506 8632 2281</p>
 					  </a>
 					  
 					  <br/>

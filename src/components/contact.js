@@ -8,7 +8,7 @@ import Footer from './global-components/footer';
 const ContactPage = () => {
     return <div>
         <Navbar />
-        <PageHeader headertitle="Contact"  />
+        <PageHeader headertitle="Contacto"  />
         <ContactInfo />
         <ContactForm />
         <Footer />
