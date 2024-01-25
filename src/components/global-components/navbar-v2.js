@@ -40,7 +40,7 @@ class NavbarV2 extends Component {
 							<li><Link to="/pantalla-verde">Pantalla Verde</Link></li>
 							<li><Link to="/neon">Neon</Link></li>
 							<li><Link to="/video">Video</Link></li>
-							<li><Link to="/giro-360">Giro 360</Link></li>
+							<li><Link to="/giro360">Giro 360</Link></li>
 
 
 							<li className="menu-item-has-children current-menu-item">

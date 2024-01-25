@@ -19,6 +19,7 @@ import BoothType from './components/booth-type';
 import AboutSection from './components/section-components/about';
 import Convencional from './components/convencional';
 import Services from './components/services';
+import Giro360 from './components/giro360';
 
 
 
@@ -45,6 +46,7 @@ class Root extends Component {
 						<Route path="/booth-type" component={BoothType} />
 						<Route path="/about" component={AboutSection} />
 						<Route path="/convencional" component={Convencional} />
+						<Route path="/giro360" component={Giro360} />
 						<Route path="/services" component={Services} />
 	                </Switch>
 	                </div>

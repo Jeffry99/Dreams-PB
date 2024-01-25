@@ -4823,3 +4823,19 @@ input[type=number] {
   align-items: center;
   
 }
+
+.marco {
+  max-width: 200px;
+}
+
+.marco1 {
+  transform: rotate(-20deg);
+}
+
+.marco2 {
+  transform: rotate(10deg);
+}
+
+.gif360 {
+  max-height: 600px;
+}

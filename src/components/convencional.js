@@ -18,9 +18,9 @@ class Convencional extends Component {
                 <div className="booth-container row">
                     <div className='booth-text booth-type col-6-lg'>
                         <h4>Photobooth Convencional</h4>
-                        <p>Eleve su evento con nuestro Photobooth clásico, versátil y elegante. Desde configuraciones al aire libre hasta entornos íntimos, se adapta a cualquier ocasión. Personalizable para bodas o eventos corporativos, garantiza recuerdos únicos con tecnología fotográfica de última generación
-                            Calidad insuperable:
-                            Nuestros fotomatones clásicos, con cámaras DSLR de primera y iluminación profesional, capturan momentos con claridad excepcional y colores vibrantes. Además de fotos impresas al instante, ofrecen experiencias interactivas con accesorios y fondos personalizables, garantizando recuerdos únicos y divertidos en cualquier evento, desde bodas hasta reuniones corporativas</p>
+                        <p>Eleve su evento con nuestro Photobooth clásico, versátil y elegante. Desde configuraciones al aire libre hasta entornos íntimos, se adapta a cualquier ocasión. Personalizable para bodas o eventos corporativos, garantiza recuerdos únicos con tecnología fotográfica de última generación</p>
+                        <h4>Calidad insuperable:</h4>
+                        <p>Nuestros fotomatones clásicos, con cámaras DSLR de primera y iluminación profesional, capturan momentos con claridad excepcional y colores vibrantes. Además de fotos impresas al instante, ofrecen experiencias interactivas con accesorios y fondos personalizables, garantizando recuerdos únicos y divertidos en cualquier evento, desde bodas hasta reuniones corporativas</p>
                         <h4>El Servicio:</h4>
                         <p>Como empresa dirigida por veteranos, nos destacamos por nuestro servicio al cliente con reseñas altamente calificadas. Nuestro equipo, con un organizador de bodas certificado, personaliza cada experiencia de fotomatón para que se alinee con sus necesidades específicas. Al elegirnos, añades emoción y elegancia a tu evento, dejando una impresión duradera en ti y tus invitados</p>
                     </div>
@@ -53,7 +53,6 @@ class Convencional extends Component {
                             <li>Greenscreen para crear fondos personalizados (opcional) </li>
                             <li>Entrega de la totalidad de fotografías en formato digital en USB</li>
                             <li>El costo del transporte fuera de la GAM depende de la distancia</li>
-
                         </ul>
                         </div>
                         <div class="column pricing">
@@ -61,7 +60,6 @@ class Convencional extends Component {
                         </div>
                     </div>
                 </div>     
-
                 <ContactModal/>
             </section>
             <Footer />
