@@ -37,9 +37,6 @@ class NavbarV2 extends Component {
 						<ul className="navbar-nav menu-open">
 							<li><Link to="/">Inicio</Link></li>
 							<li><Link to="/convencional">Convencional</Link></li>
-							<li><Link to="/pantalla-verde">Pantalla Verde</Link></li>
-							<li><Link to="/neon">Neon</Link></li>
-							<li><Link to="/video">Video</Link></li>
 							<li><Link to="/giro360">Giro 360</Link></li>
 
 

@@ -4510,7 +4510,7 @@ input[type=number] {
   border-radius: 20px;
   /* background-color: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%); */
   background-color: #54e4ff;
-  background-image: linear-gradient(90deg, #54e4ff 0%, #ae66e8 100%); 
+  background-image: linear-gradient(90deg, #75e6fa 0%, #d29cfe 100%); 
   width: 80px;
   height: 81px;
   line-height: 95px;
@@ -4687,7 +4687,7 @@ input[type=number] {
   border-radius: 30px;
   padding: 10px;
   background-color: #54e4ff;
-  background-image: linear-gradient(90deg, #54e4ff 0%, #ae66e8 100%);
+  background-image: linear-gradient(90deg, #75e6fa 0%, #d29cfe 100%);
   color: #fff;
   width: 150px;
   transition: 0.5s ease;
