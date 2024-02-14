@@ -11,21 +11,21 @@ class Convencional extends Component {
 
         let publicUrl = process.env.PUBLIC_URL+'/'
 
-    return <div> 
+    return <div className="booth-background"> 
             <Navbar />
             <PageHeader headertitle="Convencional" />
             <section className="contact-page-area pd-top-100 pd-bottom-70">
                 <div className="booth-container row">
-                    <div className='booth-text booth-type col-6-lg'>
-                        <h4>Photobooth Convencional</h4>
-                        <p>Eleve su evento con nuestro Photobooth clásico, versátil y elegante. Desde configuraciones al aire libre hasta entornos íntimos, se adapta a cualquier ocasión. Personalizable para bodas o eventos corporativos, garantiza recuerdos únicos con tecnología fotográfica de última generación</p>
-                        <h4>Calidad insuperable:</h4>
-                        <p>Nuestros fotomatones clásicos, con cámaras DSLR de primera y iluminación profesional, capturan momentos con claridad excepcional y colores vibrantes. Además de fotos impresas al instante, ofrecen experiencias interactivas con accesorios y fondos personalizables, garantizando recuerdos únicos y divertidos en cualquier evento, desde bodas hasta reuniones corporativas</p>
-                        <h4>El Servicio:</h4>
-                        <p>Como empresa dirigida por veteranos, nos destacamos por nuestro servicio al cliente con reseñas altamente calificadas. Nuestro equipo, con un organizador de bodas certificado, personaliza cada experiencia de fotomatón para que se alinee con sus necesidades específicas. Al elegirnos, añades emoción y elegancia a tu evento, dejando una impresión duradera en ti y tus invitados</p>
+                    <div className='booth-text booth-type col-6-lg' >
+                        <h4 className='color-black'>Photobooth Convencional</h4>
+                        <p className='color-black'>Eleve su evento con nuestro Photobooth clásico, versátil y elegante. Desde configuraciones al aire libre hasta entornos íntimos, se adapta a cualquier ocasión. Personalizable para bodas o eventos corporativos, garantiza recuerdos únicos con tecnología fotográfica de última generación</p>
+                        <h4 className='color-black'>Calidad insuperable:</h4>
+                        <p className='color-black'>Nuestros fotomatones clásicos, con cámaras DSLR de primera y iluminación profesional, capturan momentos con claridad excepcional y colores vibrantes. Además de fotos impresas al instante, ofrecen experiencias interactivas con accesorios y fondos personalizables, garantizando recuerdos únicos y divertidos en cualquier evento, desde bodas hasta reuniones corporativas</p>
+                        <h4 className='color-black'>El Servicio:</h4>
+                        <p className='color-black'>Como empresa dirigida por veteranos, nos destacamos por nuestro servicio al cliente con reseñas altamente calificadas. Nuestro equipo, con un organizador de bodas certificado, personaliza cada experiencia de fotomatón para que se alinee con sus necesidades específicas. Al elegirnos, añades emoción y elegancia a tu evento, dejando una impresión duradera en ti y tus invitados</p>
                     </div>
                     <div className='booth-type booth-image col-6-lg'>
-                        <img src="https://i.imgur.com/jtYo08o.jpg" alt="imagen"/>
+                        <img src="https://i.imgur.com/KDp8ugl.jpg" alt="Photobooth Convencional"/>
                     </div>
                 </div>
                 
@@ -34,11 +34,28 @@ class Convencional extends Component {
                     <br></br>
                     <img src={publicUrl+"assets/img/disenos.png"}/>
                     <br></br>
-                    <br></br>
+                    <br></br><br></br>
                     <h2>Gama de Cortinas</h2>
-                    <img src={publicUrl+"assets/img/cortinas.png"}/>
+                    <div className='row courtins-container'>
+                        <div className='column courtin-container'>
+                            <img className="courtin" src={publicUrl+"assets/img/cortinas/01.png"}/>
+                            <h5>Dorado</h5>
+                        </div>
+                        <div className='column courtin-container'>
+                            <img className="courtin" src={publicUrl+"assets/img/cortinas/02.png"}/>
+                            <h5>Neón</h5>
+                        </div>
+                        <div className='column courtin-container'>
+                            <img className="courtin" src={publicUrl+"assets/img/cortinas/03.png"}/>
+                            <h5>Plata</h5>
+                        </div>
+                        <div className='column courtin-container'>
+                            <img className="courtin" src={publicUrl+"assets/img/cortinas/04.png"}/>
+                            <h5>Pantalla Verde</h5>
+                        </div>
+                    </div>
                     <br></br>
-                    <br></br>
+                    <br></br><br></br>
                     <div class="row prices-container">
                         <div class="column list">
                         <ul>

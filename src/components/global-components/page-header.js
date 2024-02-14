@@ -11,8 +11,10 @@ class Page_header extends Component {
 
         return (
 
-			<div className="breadcrumb-area" style={{backgroundImage: 'url("'+publicUrl+'assets/img/breadcrumb/2.png")'}}>
-				  <div className="container">
+			<div className="breadcrumb-area" style={{backgroundImage: 'url("'+publicUrl+'assets/img/background.jpg")'}}>
+			{/* <div className="breadcrumb-area"> */}
+
+				<div className="container">
 				    <div className="row">
 				      <div className="col-lg-12">
 				        <div className="breadcrumb-inner">

@@ -10,19 +10,11 @@ import LatestPost from './blog-components/latest-news-v2';
 import Footer from './global-components/footer';
 
 const Home_V1 = () => {
-    return <div>
-        <div>
-            <Navbar />
-            <Banner />
-        </div>
-        {/* <ProductV1 />
-        <Featured />
-        <NewProduct />
-        <FunFact />
-        <Testimonial />
-        <LatestPost /> */}
-        <Footer />
-    </div>
+    return <div className='background'>
+                <Navbar />
+                <Banner />
+                <Footer />
+            </div>
 }
 
 export default Home_V1

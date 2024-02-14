@@ -21,7 +21,15 @@ import Convencional from './components/convencional';
 import Services from './components/services';
 import Giro360 from './components/giro360';
 
-
+window.onscroll = function() {
+  var currentScrollPos = window.scrollY;
+  if (currentScrollPos === 0) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-100px";
+  }
+  
+}
 
 class Root extends Component {
     render() {

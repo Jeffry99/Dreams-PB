@@ -19,7 +19,7 @@ class NavbarV2 extends Component {
 					</div>
 				</div>
 				</div>
-				<div className="navbar-area navbar-area-2 go-top">
+				<div id="navbar" className="navbar-area navbar-area-2 go-top navbar-background">
 				<nav className="navbar navbar-expand-lg">
 					<div className="container nav-container">
 					<div className="responsive-mobile-menu">
