@@ -11,7 +11,7 @@ class Giro360 extends Component {
 
         let publicUrl = process.env.PUBLIC_URL+'/'
 
-    return <div> 
+    return <div className="booth-background"> 
             <Navbar />
             <PageHeader headertitle="Giro 360" />
             <section className="contact-page-area pd-top-100 pd-bottom-70">
@@ -35,7 +35,7 @@ class Giro360 extends Component {
                     <img class="marco marco1" src={publicUrl+"assets/img/marco1.png"}></img>
                     <img class="marco marco2" src={publicUrl+"assets/img/marco2.png"}></img>
                     <br></br>
-                    <br></br>
+                    <br></br><br></br><br></br>
                     <div class="row prices-container">
                         <div class="column list">
                         <ul>

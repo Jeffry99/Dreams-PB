@@ -17,7 +17,7 @@ const ContactModal = () => {
   return (
     <div>
       <div className='btn-container'>
-        <button className="main-btn" onClick={openModal}>Siguiente</button>
+        <button className="main-btn" onClick={openModal}>Cotizar</button>
       </div>
 
       <Modal isOpen={isModalOpen} closeModal={closeModal}>

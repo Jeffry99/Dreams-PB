@@ -2503,7 +2503,8 @@ ul {
     margin-top: 13px;
     padding-right: 30px;
     padding-left: 30px;
-    background: rgb(255 255 255);
+    background: rgb(77,49,84);
+    background: linear-gradient(0deg, rgba(77,49,84,1) 0%, rgba(41,57,97,1) 100%);
     color: #000;
     border-radius: 15px;
   }
@@ -2586,7 +2587,7 @@ ul {
   }
 
   .navbar-area.navbar-area-2 .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li a {
-    color: #0d1f35;
+    color: #d1d1d1;
   }
 
   .navbar-area .nav-container .logo .main-logo-h1 {
@@ -3035,7 +3036,8 @@ ul {
   background-color: white;
   padding: 41px 24px 24px;
   margin-bottom: 30px;
-  box-shadow: 5px 5px 10px #eaeaea;
+  box-shadow: 5px 5px 10px #25252568;
+  height: 530px;
 }
 
 .single-about-wrap .thumb {
@@ -3051,10 +3053,11 @@ ul {
 .single-about-wrap h5 {
   font-size: 22px;
   margin: 31px 0 16px;
+  color: rgb(26, 26, 26);
 }
 
-.single-about-wrap h5:hover {
-  color: var(--main-color);
+.single-about-wrap p {
+  color: rgb(62, 62, 62);
 }
 
 /*****pricing-area*****/
@@ -3647,10 +3650,12 @@ ul {
 
 .single-contact-wrap h4 {
   margin-bottom: 13px;
+  color: rgb(40, 40, 40);
 }
 
 .single-contact-wrap p {
   margin-bottom: 4px;
+  color: rgb(53, 53, 53);
 }
 
 .contact-form-area .section-title h6 {
@@ -4632,7 +4637,7 @@ input[type=number] {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgb(0 0 0 / 78%);
   z-index: 9999;
   display: flex;
   justify-content: center;
@@ -4731,7 +4736,7 @@ input[type=number] {
 .service {
   color: #fff;
   display: flex;
-  height: 30vh;
+  height: 60vh;
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -4753,23 +4758,10 @@ input[type=number] {
 }
 
 #service-convencional {
-  background-image: url('https://i.imgur.com/sFdRjLS.jpg');
+  background-image: url('https://i.imgur.com/KDp8ugl.jpg');
 }
-
-#service-pantalla-verde {
-  background-image: url('https://i.imgur.com/0nwM3Yb.jpg');
-}
-
-#service-neon {
-  background-image: url('https://i.imgur.com/zBDksTg.jpg');
-}
-
-#service-video {
-  background-image: url('https://i.imgur.com/ZP8ZGWM.jpg');
-}
-
 #service-giro {
-  background-image: url('https://i.imgur.com/AD6cS4I.jpg');
+  background-image: url('https://i.imgur.com/4Hdk7gb.gif');
 }
 
 .unselectable-text {
@@ -4781,10 +4773,11 @@ input[type=number] {
   padding-top: 45px;
   padding-bottom: 15px;
   background-color: transparent;
+  text-align: center;
 }
 
 .contact-container {
-  background-color: #fff;
+  background-color: transparent;
   height: 90vh;
   overflow-y: auto;
   padding-top: 25px;
@@ -4861,11 +4854,6 @@ input[type=number] {
 }
 
 .booth-background {
-  /* background-color: #25a7c5; */
-  /* background-image: linear-gradient(19deg, #25a7c5 0%, #7d1ea4 100%); */
-  /* background-color: #9a8bbd; */
-  /* background: rgb(245,226,250);
-  background: linear-gradient(0deg, rgba(245,226,250,1) 0%, rgba(198,208,237,1) 100%); */
   background: rgb(77,49,84);
   background: linear-gradient(0deg, rgba(77,49,84,1) 0%, rgba(41,57,97,1) 100%);
 }

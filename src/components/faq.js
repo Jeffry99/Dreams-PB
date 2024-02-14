@@ -5,9 +5,9 @@ import FaqPage from './section-components/faq';
 import Footer from './global-components/footer';
 
 const Faq = () => {
-    return <div>
+    return <div className='booth-background'>
         <Navbar />
-        <PageHeader headertitle="FAQ" subheader="FAQ"  />
+        <PageHeader headertitle="Preguntas Frecuentes" subheader="Preguntas Frecuentes"  />
         <FaqPage />
         <Footer />
     </div>

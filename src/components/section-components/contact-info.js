@@ -19,7 +19,7 @@ class ContactInfo extends Component {
 							</div>
 						</a>
 			          <h4>Ubicación</h4>
-					  <a href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer">
+					  <a href="https://maps.app.goo.gl/wPzBoXK4Kc8cLV2y9" target="_blank" rel="noopener noreferrer">
 			          	<p className='social-user'>Heredia, Costa Rica</p>
 					  </a>
 					  <br/>
@@ -27,7 +27,7 @@ class ContactInfo extends Component {
 			      </div> 
 				  <div className="col-lg-4 col-md-6">
 			        <div className="single-contact-wrap text-center">
-						<a href="https://www.facebook.com/profile.php?id=61552744551716" target="_blank" rel="noopener noreferrer">
+						<a href="https://wa.me/50686322281?text=¡Hola!%20Quisiera%20más%20información" target="_blank" rel="noopener noreferrer">
 							<div className="thumb-icon">
 								<i class="fa fa-whatsapp fa-2x"></i>
 							</div>
@@ -42,7 +42,7 @@ class ContactInfo extends Component {
 			      </div> 
 				  <div className="col-lg-4 col-md-6">
 			        <div className="single-contact-wrap text-center">
-						<a href="https://www.facebook.com/profile.php?id=61552744551716" target="_blank" rel="noopener noreferrer">
+						<a href="" target="_blank" rel="noopener noreferrer">
 							<div className="thumb-icon">
 								<i class="fa fa-envelope fa-2x"></i>
 							</div>
@@ -54,7 +54,7 @@ class ContactInfo extends Component {
 			      </div> 
 				  <div className="col-lg-4 col-md-6">
 			        <div className="single-contact-wrap text-center">
-						<a href="https://www.facebook.com/profile.php?id=61552744551716" target="_blank" rel="noopener noreferrer">
+						<a href="https://www.instagram.com/dreamsphotoboothcr/" target="_blank" rel="noopener noreferrer">
 							<div className="thumb-icon">
 								<i class="fa fa-instagram fa-2x"></i>
 							</div>

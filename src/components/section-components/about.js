@@ -11,7 +11,7 @@ class AboutSection extends Component {
 
         let publicUrl = process.env.PUBLIC_URL+'/'
 
-    return  <div>   
+    return  <div className='booth-background'>    
 		<Navbar />
 		<PageHeader headertitle="Nosotros" />
 

@@ -31,25 +31,12 @@ const ServicesModal = () => {
             service.innerHTML = '';
             service.style.backgroundBlendMode = "normal";
 
-            switch (service.id) {
-
-                case "service-convencional":
-                    service.innerHTML = "<p class='unselectable-text'>Convencional</p>";
-                break;
-                case "service-pantalla-verde":
-                    service.innerHTML= "<p class='unselectable-text'>Pantalla Verde</p>";
-                break;
-                case "service-neon":
-                    service.innerHTML = "<p class='unselectable-text'>Neón</p>";
-                break;
-                case "service-video":
-                    service.innerHTML = "<p class='unselectable-text'>Vídeo</p>";
-                break;
-                case "service-giro":
+            if(service.id === "service-convencional") {
+                service.innerHTML = "<p class='unselectable-text'>Convencional</p>";
+            } else {
+                if(service.id === "service-giro") {
                     service.innerHTML = "<p class='unselectable-text'>Giro 360</p>";
-                break;
-                default:
-                    console.log('default');
+                }
             }
         }
     }
@@ -70,21 +57,11 @@ const ServicesModal = () => {
 
             <Modal isOpen={isModalOpen} closeModal={closeModal}>
                 <section className="services-container"> 
+                    <h4>¿En cuál/cuáles servicios estás interesado?</h4>
                     <div className="pics">
                         <div className="row">
-                            <div className='service col-lg-4' id='service-convencional' onClick={handleClickService}>
+                            <div className='service col-lg-6' id='service-convencional' onClick={handleClickService}>
                                 <p className="unselectable-text">Convencional</p>
-                            </div>
-                            <div className='service col-lg-4' id='service-pantalla-verde' onClick={handleClickService}>
-                                <p className="unselectable-text">Pantalla Verde</p>
-                            </div>
-                            <div className='service col-lg-4' id='service-neon' onClick={handleClickService}>
-                                <p className="unselectable-text">Neón</p>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className='service col-lg-6' id='service-video' onClick={handleClickService}>
-                                <p className="unselectable-text">Vídeo</p>
                             </div>
                             <div className='service col-lg-6' id='service-giro' onClick={handleClickService}>
                                 <p className="unselectable-text">Giro 360</p>

@@ -6,7 +6,7 @@ import ContactForm from './section-components/contact-form';
 import Footer from './global-components/footer';
 
 const ContactPage = () => {
-    return <div>
+    return <div className='booth-background'>
         <Navbar />
         <PageHeader headertitle="Contacto"  />
         <ContactInfo />

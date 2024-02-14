@@ -5,7 +5,7 @@ import GalleryComponent from './gallery-component';
 import Footer from './global-components/footer';
 
 const BlogPage = () => {
-    return <div>
+    return <div className='booth-background'>
         <Navbar />
         <PageHeader headertitle="Galería" />
         <GalleryComponent />

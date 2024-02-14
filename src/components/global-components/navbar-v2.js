@@ -45,7 +45,7 @@ class NavbarV2 extends Component {
 							<ul className="sub-menu">
 							<li><Link to="/about">Nosotros</Link></li>
 							<li><Link to="/gallery">Galería</Link></li>
-							<li><Link to="/faq">FAQ</Link></li>
+							<li><Link to="/faq">Preguntas Frecuentes</Link></li>
 							<li><Link to="/contact">Contacto</Link></li>
 							</ul>
 						</li>
