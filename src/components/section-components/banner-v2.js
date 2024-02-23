@@ -30,7 +30,6 @@ class BannerV2 extends Component {
 						</div>
 						</div>
 					</div>
-					<ServicesModal/>
 				</div>
         }
 }

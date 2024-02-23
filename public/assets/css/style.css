@@ -770,8 +770,8 @@ ul {
   font-size: 14px;
   padding: 0 20px;
   border: 1px solid whitesmoke;
-  background: transparent;
-  border-radius: 0px;
+  /* background: transparent; */
+  border-radius: 15px;
   color: #565872;
   transition: all 0.4s ease-in;
 }
@@ -794,15 +794,14 @@ ul {
   width: 100%;
   padding: 22px 20px;
   font-size: 14px;
-  background: transparent;
+  /* background: transparent; */
   border: 1px solid whitesmoke;
-  color: var(--paragraph-color);
-  border-radius: 0px;
+  border-radius: 15px;
   transition: all 0.4s ease-in;
 }
 
 .single-input-wrap textarea::placeholder {
-  color: var(--paragraph-color);
+  color: #7f7f7f;
   font-size: 14px;
 }
 
@@ -2682,7 +2681,7 @@ ul {
 }
 
 .banner-area.banner-area-2 .banner-inner {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .banner-area.banner-area-2 .banner-inner h2 {
@@ -3632,8 +3631,13 @@ ul {
 ----------------------------------------------*/
 .single-contact-wrap {
   border-radius: 5px;
-  background-color: white;
-  box-shadow: 0px 6px 47px 3px rgba(37, 37, 37, 0.05);
+  /* background-color: white; */
+  /* box-shadow: 0px 6px 47px 3px rgba(37, 37, 37, 0.05); */
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px); 
   padding: 70px 45px 60px;
   margin-bottom: 30px;
 }
@@ -3650,12 +3654,12 @@ ul {
 
 .single-contact-wrap h4 {
   margin-bottom: 13px;
-  color: rgb(40, 40, 40);
+  color: rgb(255, 255, 255);
 }
 
 .single-contact-wrap p {
   margin-bottom: 4px;
-  color: rgb(53, 53, 53);
+  color: rgb(188, 188, 188);
 }
 
 .contact-form-area .section-title h6 {
@@ -4577,7 +4581,7 @@ input[type=number] {
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -4701,10 +4705,11 @@ input[type=number] {
 
 #close-button-contact {
   color: #d1d1d1;
+  z-index: 999;
 }
 
 .main-btn {
-  border-radius: 30px;
+  border-radius: 15px;
   padding: 10px;
   background-color: #669fe8;
   color: #fff;
@@ -4777,11 +4782,15 @@ input[type=number] {
 }
 
 .contact-container {
-  background-color: transparent;
+  backdrop-filter: blur(5px);
   height: 90vh;
   overflow-y: auto;
   padding-top: 25px;
   padding-bottom: 25px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(5px); 
 }
 
 .date-label {
@@ -4848,9 +4857,14 @@ input[type=number] {
 }
 
 .background {
-  height: 150vh;
   background-image: url(../img/background.jpg);
   background-size: cover;
+}
+
+@media (max-width: 419px) {
+  .background {
+    height: 570vh;
+  }
 }
 
 .booth-background {
@@ -4880,3 +4894,100 @@ input[type=number] {
   display: flex;
   justify-content: center;
 }
+
+.packages-out-container {
+  padding-top: 80px;
+  text-align: center;
+}
+
+.packages-container {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  margin: 10px;
+  color:rgb(255, 255, 255);
+}
+
+.package-row {
+  justify-content: center;
+  max-width: 1519px;
+}
+
+.package {
+  min-height: 175px;
+}
+
+.package-price-container {
+  /* display: inline; */
+  text-align: left;
+  margin: 15px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px); 
+  min-width: 350px;
+  max-width: 350px;
+  min-height: 400px;
+}
+
+.price {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding-top: 10px;
+  text-align: center;
+  font-size: large;
+  font-weight: 400;
+}
+
+.price p {
+  font-size: 15px;
+  color: #fff;
+  padding: 0px;
+  margin: 0px;
+}
+
+.package-title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.package-title h5 {
+  color: #cdb4ff;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.package-list {
+  text-align: center;
+  height: 66%;
+}
+
+.package-list-item {
+  padding: 10px;
+  border-top: 1px solid rgb(255, 255, 255, 0.3);
+}
+
+@media (min-width: 1220px) {
+  .package-price-container {
+    width: 33.3%; 
+  }
+}
+
+@media (max-width: 1027px) {
+  .package-price-container {
+    width: 50%; /* 3 divs in a row for medium and larger screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .package-price-container {
+    width: 100%; /* 3 divs in a row for medium and larger screens */
+  }
+}
+
+

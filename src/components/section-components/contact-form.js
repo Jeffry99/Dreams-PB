@@ -89,7 +89,6 @@ const ContactForm = () => {
 							</div>
 						</div>
 					</form>
-					{/* <Lottie animationData={successAnimation}/> */}
 				</div>
 				</div>
 			</div>

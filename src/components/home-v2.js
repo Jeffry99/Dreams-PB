@@ -8,11 +8,16 @@ import FunFact from './section-components/funfact';
 import Testimonial from './section-components/testimonial-v2';
 import LatestPost from './blog-components/latest-news-v2';
 import Footer from './global-components/footer';
+import Packages from './packages';
+import ContactModal from './global-components/contact-modal';
 
 const Home_V1 = () => {
     return <div className='background'>
                 <Navbar />
                 <Banner />
+                <ContactModal/>
+                <Packages />
+                <ContactModal/>
                 <Footer />
             </div>
 }
