@@ -1,9 +1,8 @@
-import React, { Component, useState } from 'react';
-import Lottie from 'lottie-react';
-import successAnimation from '../success.json';
+import React, { Component, useState, useEffect } from 'react';
 const ContactForm = () => {
 
 	const publicUrl = process.env.PUBLIC_URL+'/'
+	const mailUrl = "http://localhost:3000/mail";
 
 	const [formData, setFormData] = useState({
 		name: "",
@@ -24,7 +23,20 @@ const ContactForm = () => {
 	
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		console.log('Form submitted:', formData);
+		fetch(mailUrl, {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json',
+			},
+			body: JSON.stringify(formData),
+		})
+		.then(response => response.json())
+		.then(data => {
+			console.log('Response:', data);
+		})
+		.catch(error => {
+			console.error('Error:', error);
+		})
 	};
 
 	return (
@@ -84,7 +96,7 @@ const ContactForm = () => {
 								<div className="input-group-prepend"></div>
 							</div>
 							<div className="submit-area text-center">
-								<button type="submit" className="main-btn" >Enviar</button>
+								<button type="submit" className="main-btn">Enviar</button>
 							</div>
 							</div>
 						</div>
