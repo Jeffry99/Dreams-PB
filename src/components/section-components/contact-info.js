@@ -13,7 +13,7 @@ class ContactInfo extends Component {
 			    <div className="row justify-content-center">
 				  <div className="col-lg-4 col-md-6">
 			        <div className="single-contact-wrap text-center">
-						<a href="https://www.facebook.com/profile.php?id=61552744551716" target="_blank" rel="noopener noreferrer">
+						<a href="https://maps.app.goo.gl/wPzBoXK4Kc8cLV2y9" target="_blank" rel="noopener noreferrer">
 							<div className="thumb-icon">
 								<i class="fa fa-location-arrow fa-2x"></i>
 							</div>
@@ -42,11 +42,9 @@ class ContactInfo extends Component {
 			      </div> 
 				  <div className="col-lg-4 col-md-6">
 			        <div className="single-contact-wrap text-center">
-						<a href="" target="_blank" rel="noopener noreferrer">
-							<div className="thumb-icon">
-								<i class="fa fa-envelope fa-2x"></i>
-							</div>
-						</a>
+						<div className="thumb-icon">
+							<i class="fa fa-envelope fa-2x"></i>
+						</div>
 			          <h4>Email</h4>
 			          	<p className='social-user'>dreamsphotoboothr@gmail.com</p>
 					  <br/>

@@ -82,8 +82,8 @@ class Faq extends Component {
 			            <div className="card-header">
 			              <h2>
 			                <button className="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseFive">
-								¿Son impresiones ilimitadas?
-			                  <span className="collapse-icon" />
+							¿Son impresiones ilimitadas?
+			                <span className="collapse-icon" />
 			                </button>
 			              </h2>
 			            </div>
@@ -141,13 +141,13 @@ class Faq extends Component {
 					  <div className="card">
 			            <div className="card-header">
 			              <h2>
-			                <button className="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseEight">
+			                <button className="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseNine">
 							¿Cuándo vence mi saldo?
 			                  <span className="collapse-icon" />
 			                </button>
 			              </h2>
 			            </div>
-			            <div id="collapseEight" className="collapse" data-parent="#accordionExample">
+			            <div id="collapseNine" className="collapse" data-parent="#accordionExample">
 			              <div className="card-body">
 						  El saldo restante se deberá cancelar el día del evento.
 			              </div>
@@ -156,13 +156,13 @@ class Faq extends Component {
 					  <div className="card">
 			            <div className="card-header">
 			              <h2>
-			                <button className="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseEight">
+			                <button className="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTen">
 							¿Se cobra un adicional fuera del GAM?
 			                  <span className="collapse-icon" />
 			                </button>
 			              </h2>
 			            </div>
-			            <div id="collapseEight" className="collapse" data-parent="#accordionExample">
+			            <div id="collapseTen" className="collapse" data-parent="#accordionExample">
 			              <div className="card-body">
 						  Sí, se cobra un adicional dependiendo de la distancia en kilómetros, esto para cubrir tiempo del personal, tiempo de manejo, gasolina y desgaste del vehículo.
 			              </div>
@@ -171,13 +171,13 @@ class Faq extends Component {
 					  <div className="card">
 			            <div className="card-header">
 			              <h2>
-			                <button className="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseEight">
+			                <button className="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven">
 							¿Cuánto dura cada sesión?
 			                  <span className="collapse-icon" />
 			                </button>
 			              </h2>
 			            </div>
-			            <div id="collapseEight" className="collapse" data-parent="#accordionExample">
+			            <div id="collapseEleven" className="collapse" data-parent="#accordionExample">
 			              <div className="card-body">
 						  Cada sesión de fotos dura aproximadamente entre 1 y 2 minutos, dependiendo de la cantidad de personas.
 			              </div>
@@ -186,13 +186,13 @@ class Faq extends Component {
 					  <div className="card">
 			            <div className="card-header">
 			              <h2>
-			                <button className="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseEight">
+			                <button className="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwelve">
 							¿Qué formas de pago se aceptan? 
 			                  <span className="collapse-icon" />
 			                </button>
 			              </h2>
 			            </div>
-			            <div id="collapseEight" className="collapse" data-parent="#accordionExample">
+			            <div id="collapseTwelve" className="collapse" data-parent="#accordionExample">
 			              <div className="card-body">
 						  Aceptamos SINPE, transferencias o efectivo. Solo se aceptan cheques para eventos corporativos o escolares.
 			              </div>
